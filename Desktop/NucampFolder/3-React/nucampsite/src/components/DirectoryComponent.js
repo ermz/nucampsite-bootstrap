@@ -5,7 +5,7 @@ class Directory extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            selectedCampsite: null
+           selectedCampsite: null
         };
     }
 
@@ -41,6 +41,8 @@ class Directory extends Component {
                 </div>
             );
         });
+
+
 
         return (
             <div className="container">

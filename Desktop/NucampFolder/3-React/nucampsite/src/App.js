@@ -12,16 +12,16 @@ class App extends Component {
     };
   }
   render() {
-      return (
-          <div className="App">
-              <Navbar dark color="primary">
-              <div className="container">
-                  <NavbarBrand href="/">NuCamp</NavbarBrand>
-              </div>
-              </Navbar>
-              <Directory campsites={this.state.campsites} />
-          </div>
-      );
+    return (
+        <div className="App">
+            <Navbar dark color="primary">
+            <div className="container">
+                <NavbarBrand href="/">NuCamp</NavbarBrand>
+            </div>
+            </Navbar>
+            <Directory campsites={this.state.campsites} />
+        </div>
+    );
   }
 }
 
